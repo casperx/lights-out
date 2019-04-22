@@ -1,0 +1,31 @@
+#game {
+    border: 5px solid darkred;
+    padding-top: 5px;
+    padding-left: 5px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.row {
+    font-size: 0;
+    letter-spacing: 0;
+    word-spacing: 0;
+    white-space: nowrap;
+}
+
+[id^="pad_"] {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.off {
+    background-color: gray;
+}
+
+.on {
+    background-color: orange;
+}
